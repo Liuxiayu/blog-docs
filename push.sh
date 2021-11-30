@@ -1,4 +1,4 @@
 #!/bin/bash
-git add *
+git add --all
 git commit -m "test"
 git push -u origin master
