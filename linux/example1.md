@@ -66,7 +66,7 @@ O(1)。
 
 **链表**
 
-![Generated](media/image1.png){width="5.90625in"
+![Generated](https://img0.baidu.com/it/u=1921239532,3468544259&fm=26&fmt=auto){width="5.90625in"
 height="3.3541666666666665in"}
 
 链表要想随机访问第 k
@@ -1137,5 +1137,5 @@ UDP 的一些不足。
 字节流写操作，内核协议栈将字节流通过网络设备传输到服务器端，服务器端从内核得到信息，将字节流从内核读入到进程中，并开始业务逻辑的处理，完成之后，服务器端再将得到的结果以同样的方式写给客户端。可以看到，一旦连接建立，数据的传输就不再是单向的，而是双向的，这也是
 TCP 的一个显著特性。
 
-![Generated](media/image15.png){width="5.90625in"
+![Generated](https://www.google.com.hk/imgres?imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F9%2F95%2FWoman_with_Minolta_Hi-Matic_F.jpg%2F220px-Woman_with_Minolta_Hi-Matic_F.jpg&imgrefurl=https%3A%2F%2Fzh.wikipedia.org%2Fzh-my%2F%25E6%2591%2584%25E5%25BD%25B1&tbnid=Bn14kVPnn9Cz2M&vet=12ahUKEwic4sCd1870AhXVAbcAHUBmB3EQMygEegUIARDQAQ..i&docid=ScO6lNZubnlKQM&w=220&h=330&q=%E6%91%84%E5%BD%B1&ved=2ahUKEwic4sCd1870AhXVAbcAHUBmB3EQMygEegUIARDQAQ){width="5.90625in"
 height="3.9895833333333335in"}
