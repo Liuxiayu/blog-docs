@@ -5,8 +5,8 @@ title = "python property原理"
 author = "liuxiayu"
 github_url = "https://github.com/liuxiayu"
 head_img = ""
-created_at = 2021-12-06T14:52:43
-updated_at = 2021-12-06T14:52:43
+created_at = 2021-12-07T14:52:43
+updated_at = 2021-12-07T14:52:43
 description = "记录学习property"
 tags = ["python"]
 +++
@@ -103,5 +103,15 @@ s1._score: 60
 self=<__main__.MyProperty object at 0x10ec4ec70>,obj=<__main__.Student2 object at 0x10ed733a0>,objtype=<class '__main__.Student2'>
 self.fget(obj): 100
 s2.score: 100
+```
+
+```
+总结
+知识点: t = 类Test() 会调用Test的__get__方法
+思路：
+（1）第二种类属性的方法 根据score = MyProperty(getx, setx) -> 此时的MyProperty的fget=getx，fset=setx -> 会走MyProperty的__get__方法__get__(self, obj, objtype=None)，
+此时这个obj是Student2的对象-> self.fget(obj) = getx(obj) -> return self._score 
+
+（2）第一种装饰器的方法类似, 把score方法当作装饰器(Property类)的参数转化进去  当执行self.score时， 等价于 MyProperty(score) 返回 self.fget(obj) -> score(obj) -> return self._score
 ```
 
