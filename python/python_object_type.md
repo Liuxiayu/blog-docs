@@ -12,7 +12,7 @@ tags = ["python"]
 ### 理解python中的object、type
 
 详解如图【画得真好】
-![图](http://111.229.10.101:8888/group1/M00/00/00/CgAQBmGvO5eAAxz9AAIxpbpRVjE610.png)
+![图](http://127.0.0.1:8888/group1/M00/00/00/CgAQBmGvO5eAAxz9AAIxpbpRVjE610.png)
 
 
 ```
